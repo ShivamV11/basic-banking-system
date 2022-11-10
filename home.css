@@ -1,0 +1,90 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .navbar{
+    background-color: #333;
+  }
+   .navbar-brand:hover{
+    background-color: #111;
+   
+
+   }
+   .navbar-brand{
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger
+    font-weight: normal;;
+   }
+  .img-fluid{
+   
+   width: 1500px;
+  height: 650px;
+  
+   
+   }
+   .container{
+    padding-top: 50px;
+   }
+   .img-fluid .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  .card-body{
+    text-align: center;
+  }
+ 
+  .centered {
+    color: aliceblue;
+    font-weight: 100;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered:hover{
+    background-color: #333;
+    font-size: 10%;
+    font-style: italic;
+    font-weight: bolder;
+    
+  }
+  #navbar-example2 {
+    overflow: scroll;
+    background-color: #352626;
+    padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+    padding: 20px 20px !important;
+  }
+  
+   
+  
